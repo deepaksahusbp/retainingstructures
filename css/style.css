@@ -1,0 +1,243 @@
+    body{
+        padding-top: 3.25%;
+        background-color: white ;    
+    }
+            .navbar {
+                margin-bottom: 0;
+                border-radius: 0;
+/*                opacity: 0.5;*/
+            }
+
+
+            .row.content{
+                height: 450px
+            }
+
+            .sidenav{
+                padding-top: 20px;
+                background-color: #f1f1f1;
+                height: 100%;
+/*                margin-right: 10%;*/
+/*                position: fixed;*/
+            }
+
+
+            fixedooter {
+                background-color: #555;
+                color: white;
+                padding: 15px;
+            }
+
+            @media screen and (max-width: 767px) {
+                .sidenav {
+                    height: auto;
+                    padding: 15px;
+                }
+                .row.content {
+                    height:auto;
+                } 
+            }
+          
+/*Sub_Menu*/
+
+ul.social li{
+			display: inline;
+		}
+		
+ul.social li img{
+			height: 75px;
+		}
+
+.dropdown-submenu {
+    position: relative;
+}
+
+.dropdown-submenu>.dropdown-menu {
+    top: 0;
+    left: 100%;
+    margin-top: -6px;
+    margin-left: -1px;
+    -webkit-border-radius: 0 6px 6px 6px;
+    -moz-border-radius: 0 6px 6px;
+    border-radius: 0 6px 6px 6px;
+}
+
+.dropdown-submenu:hover>.dropdown-menu {
+    display: block;
+}
+
+.dropdown-submenu>a:after {
+    display: block;
+    content: " ";
+    float: right;
+    width: 0;
+    height: 0;
+    border-color: transparent;
+    border-style: solid;
+    border-width: 5px 0 5px 5px;
+    border-left-color: #ccc;
+    margin-top: 5px;
+    margin-right: -10px;
+}
+
+.dropdown-submenu:hover>a:after {
+    border-left-color: #fff;
+}
+
+.dropdown-submenu.pull-left {
+    float: none;
+}
+
+.dropdown-submenu.pull-left>.dropdown-menu {
+    left: -100%;
+    margin-left: 10px;
+    -webkit-border-radius: 6px 0 6px 6px;
+    -moz-border-radius: 6px 0 6px 6px;
+    border-radius: 6px 0 6px 6px;
+}
+/*/Sub_Menu*/
+.body_bg_img{
+    margin: 0px;
+    padding: 0px;
+    padding: 0px;
+
+}
+.body_bg_img div{
+    /*background-image: url("../images/helpinghand1.jpg");*/
+    background-repeat: no-repeat;
+    background-position: right top;
+    background-attachment: fixed;
+}
+#body_bg_img{
+
+}
+.myBack-lg
+{
+    background-image:url("../images/helpinghand3.jpg");
+    /*background-size:1200px 300px;*/
+    /*height:200px;*/
+    background-repeat:no-repeat;
+    color:#555;
+    background-size: 100%;
+    padding-top:50%;
+    margin-top:0;
+}
+
+.myBack-md
+{
+    background-image:url("../images/helpinghand1.jpg");
+    background-size:1000px 250px;
+    height:180px;
+    background-repeat:no-repeat;
+    color:#555;
+    padding:15px;
+    background-size: 100% 100%; width:100%; height: 100%;
+}
+
+.myBack-sm
+{
+    background-image:url("../images/helpinghand1.jpg");
+    background-size:800px 200px;
+    height:175px;
+    background-repeat:no-repeat;
+    color:#555;
+    padding:10px;
+    background-size: cover; width:100%; height: 100%;
+}
+
+.myBack-xs
+{
+    background-image:url("../images/helpinghand1.jpg");
+    background-size:500px 125px;
+    height:125px;
+    background-repeat:no-repeat;
+    color:#555;
+    padding:5px;
+    background-size: cover; width:100%; height: 100%;
+}
+/*Sign_up Form*/
+.error {
+    color: #FF0000;
+}
+.col6{
+    /*background-color: #f1f1f1;*/
+    /*height: 100%;*/
+    margin-top: 2%;
+    margin-bottom: 6%;
+    border-radius:1%;
+    box-shadow: 0 10px 18px 0 rgba(0, 0, 0, 0.2), 0 16px 30px 0 rgba(0, 0, 0, 0.19);
+}
+.boxshadow{
+    position: relative;
+    /*-moz-box-shadow: 1px 2px 4px rgba(0, 0, 0,0.5);
+    -webkit-box-shadow: 1px 2px 4px rgba(0, 0, 0, .5);
+    box-shadow: 1px 2px 4px rgba(0, 0, 0, .5);*/
+    padding: 10px;
+    /*background: white;*/
+}
+/*Sign_Up Form End*/
+#icon a:hover{
+			color: orange;
+			text-decoration: underline;
+		}
+/*-------------------------Bootstrap Changes-----------------------------------------------------*/
+.dropdown-toggle .btn-default{      /*For Question Bank Tab @ navbar*/
+    background-color: black;
+    color:#ccc;
+}
+
+/*Try for member:*/
+/*.nav>li>a{            
+    padding-right: 0;
+}*/
+/*-------------------------/Bootstrap Changes-----------------------------------------------------*/
+
+/*-------------------------Pure Code-----------------------------------------------------*/
+.programCode{
+/*.syntaxhighlighter a, .syntaxhighlighter div, .syntaxhighlighter code, .syntaxhighlighter table, .syntaxhighlighter table td, .syntaxhighlighter table tr, .syntaxhighlighter table tbody, .syntaxhighlighter table thead, .syntaxhighlighter table caption, .syntaxhighlighter textarea {*/
+    -moz-border-radius: 0 0 0 0!important;
+    -webkit-border-radius: 0 0 0 0!important;
+    background: none!important;
+    border: 0!important;
+    bottom: auto!important;
+    float: none!important;
+    height: auto!important;
+    left: auto!important;
+    line-height: 1.2em!important;
+    margin: 0!important;
+    outline: 0!important;
+    overflow: hidden!important;
+    padding: 0!important;
+    position: static!important;
+    right: auto!important;
+    text-align: left!important;
+    top: auto!important;
+    vertical-align: baseline!important;
+    width: auto!important;
+    box-sizing: content-box!important;
+    font-family: "Consolas","Bitstream Vera Sans Mono","Courier New",Courier,monospace!important;
+    font-weight: normal!important;
+    font-style: normal!important;
+    font-size: 0.99em!important;
+}
+
+/*-------------------------/Pure Code-----------------------------------------------------*/
+
+/*-------------------------Right Sidebar-Index-----------------------------------------------------*/
+@media screen and (max-width: 768px){
+    .disappear{
+        width: 0px;
+        height: 0px;
+        padding:0px;
+        margin:0;
+        font-size: 0;
+    }
+    .atsmall{
+        text-align: center;
+    }
+}
+/*-------------------------/Right Sidebar-Index-----------------------------------------------------*/
+
+.gsc-control-cse.gsc-control-cse-en{
+    padding: 0!important;
+}
